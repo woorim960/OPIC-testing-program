@@ -40,21 +40,29 @@
       <div class="btn-form">
         <div class="btn speak-btn">Speak Question</div>
         <div class="btn answer-btn">Speak Answer</div>
+        <div class="btn pause-btn">Pause Speaking</div>
       </div>
     </div>
   </section>
 
   <section class="control-form">
-    <div>
-      <label for="rate">Rate</label><input type="range" min="0.5" max="2" value="1.05" step="0.05" id="rate">
+    <div class="rate">
+      <label for="rate">Rate</label><br><input type="range" min="0.5" max="2" value="1.05" step="0.05" id="rate">
       <div class="rate-value">1.05</div>
       <div class="clearfix"></div>
     </div>
-    <div>
-      <label for="pitch">Pitch</label><input type="range" min="0" max="2" value="1.2" step="0.05" id="pitch">
+    <div class="pitch">
+      <label for="pitch">Pitch</label><br><input type="range" min="0" max="2" value="1.2" step="0.05" id="pitch">
       <div class="pitch-value">1.2</div>
       <div class="clearfix"></div>
     </div>
   </section>
+
+  <hr>
+  
+  <article>
+    <span class="main-title">Script</span>
+    <div class="description"></div>
+  </article>
 </body>
 </html>
