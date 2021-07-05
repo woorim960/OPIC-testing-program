@@ -1,6 +1,10 @@
 "use strict";
 
-const lang = "en-US";
+const LANG = "en-US";
+const RATE = 1.05;
+const PITCH = 1.2;
+
+const questions = [];
 
 if (window.speechSynthesis.onvoiceschanged !== undefined) {
   window.speechSynthesis.onvoiceschanged = setVoiceList;
@@ -39,7 +43,7 @@ function speech(txt) {
     console.log("error", event);
   };
 
-  // 보이스 설정
+  // Samantha 보이스 설정
   let voiceFound = false;
   for (let voice of voices) {
     if (voice.name === "Samantha") {
@@ -54,8 +58,8 @@ function speech(txt) {
     return;
   }
 
-  speaker.lang = lang; // 언어
-  speaker.pitch = 1.2; // 음 높이
-  speaker.rate = 1.05; // 속도
+  speaker.lang = LANG; // 언어
+  speaker.pitch = PITCH; // 음 높이
+  speaker.rate = RATE; // 속도
   window.speechSynthesis.speak(speaker);
 }
