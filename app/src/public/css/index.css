@@ -1,1 +1,101 @@
 @import "./reset.css";
+
+body {
+  margin: 10px 0 0 10px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.title-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+h4 {
+  color: rgb(88, 83, 83);
+}
+
+a {
+  color: rgb(133, 133, 253);
+  border-bottom: 1px solid rgb(133, 133, 253);
+}
+
+a:hover {
+  color: rgb(84, 84, 221);
+  font-size: 13.2px;
+}
+
+.main {
+  margin-top: 15px;
+}
+
+.main-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.select-form {
+  margin-top: 12px;
+}
+
+select {
+  width: 180px;
+  padding: 4px;
+  border-radius: 40px;
+}
+
+select:hover {
+  cursor: pointer;
+  color:rgb(84, 84, 221);
+  border-color: rgb(84, 84, 221);
+}
+
+.btn-form {
+  display: flex;
+  margin-top: 12px;
+}
+
+.btn {
+  text-align: center;
+  width: 90px;
+  margin-right: 6px;
+  padding: 5px;
+  color: whitesmoke;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  color: white;
+  background-color: rgb(42, 33, 33);
+}
+
+@media (max-width: 300px) {
+  h1 {
+    font-size: 22px;
+  }
+
+	.title-footer {
+		flex-direction: column;
+	}
+
+  a {
+    width: 100px;
+  }
+
+  h4 {
+    margin-top: 4px;
+  }
+}
