@@ -1,20 +1,31 @@
 "use strict";
 
-const LANG = "en-US";
-const RATE = 1.05;
-const PITCH = 1.2;
+import questions from "./questions.js";
 
-const questions = [];
+const LANG = "en-US";
+
+const selectBox = document.querySelector("select");
+const speakBtn = document.querySelector(".speak-btn");
+const answerBtn = document.querySelector(".answer-btn");
+
+const pitch = document.querySelector("#pitch");
+const pitchValue = document.querySelector(".pitch-value");
+const rate = document.querySelector("#rate");
+const rateValue = document.querySelector(".rate-value");
+
+speakBtn.addEventListener("click", speakHandler);
+
+pitch.onchange = function () {
+  pitchValue.textContent = pitch.value;
+};
+
+rate.onchange = function () {
+  rateValue.textContent = rate.value;
+};
 
 if (window.speechSynthesis.onvoiceschanged !== undefined) {
   window.speechSynthesis.onvoiceschanged = setVoiceList;
 }
-
-document.addEventListener("click", function (e) {
-  const t = e.target;
-  const input = t.previousElementSibling;
-  speech(input.value);
-});
 
 let voices = [];
 setVoiceList();
@@ -59,7 +70,19 @@ function speech(txt) {
   }
 
   speaker.lang = LANG; // 언어
-  speaker.pitch = PITCH; // 음 높이
-  speaker.rate = RATE; // 속도
+  speaker.pitch = pitch.value; // 음 높이
+  speaker.rate = rate.value; // 속도
   window.speechSynthesis.speak(speaker);
+}
+
+function speakHandler(e) {
+  const idx = selectBox.selectedIndex;
+  const selected = selectBox.options[idx];
+  const choicedMsg = randomItem(questions[selected.value]);
+  speech(choicedMsg);
+}
+
+// 주어진 배열에서 요소 1개를 랜덤하게 골라 반환하는 함수
+function randomItem(a) {
+  return a[Math.floor(Math.random() * a.length)];
 }
