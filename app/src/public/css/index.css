@@ -82,6 +82,26 @@ select:hover {
   background-color: rgb(42, 33, 33);
 }
 
+.control-form {
+  margin-top: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.pitch {
+  margin-top: 15px;
+}
+
+#rate {
+  width: 160px;
+}
+
+#pitch {
+  width: 160px;
+}
+
 @media (max-width: 300px) {
   h1 {
     font-size: 22px;
