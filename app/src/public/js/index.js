@@ -10,6 +10,7 @@ const speakBtn = document.querySelector(".speak-btn");
 const answerBtn = document.querySelector(".answer-btn");
 const pauseBtn = document.querySelector(".pause-btn");
 
+const voiceBox = document.querySelector(".voices");
 const pitch = document.querySelector("#pitch");
 const pitchValue = document.querySelector(".pitch-value");
 const rate = document.querySelector("#rate");
@@ -33,13 +34,25 @@ if (window.speechSynthesis.onvoiceschanged !== undefined) {
   window.speechSynthesis.onvoiceschanged = setVoiceList;
 }
 
-let speaker = undefined;
-let voices = [];
+const voices = {};
+let voiceFound = false;
 setVoiceList();
 
 // TTS를 지원하는 보이스들을 전부 불러온다.
 function setVoiceList() {
-  voices = window.speechSynthesis.getVoices();
+  const allVoice = window.speechSynthesis.getVoices();
+
+  // OS별 보이스를 찾아서 SelectBox에 추가
+  for (let voice of allVoice) {
+    if (voice.lang === LANG) {
+      const option = document.createElement("option");
+      option.value = voice.name;
+      option.innerHTML = voice.name;
+      voices[voice.name] = voice;
+      voiceBox.appendChild(option);
+      voiceFound = true;
+    }
+  }
 }
 
 // 말하기
@@ -51,35 +64,25 @@ function speech(txt) {
     return;
   }
 
-  speaker = new SpeechSynthesisUtterance(txt);
+  const speaker = new SpeechSynthesisUtterance(txt);
 
   speaker.onend = function (event) {
     console.log("end");
-  };
-
-  speaker.onpause = function (e) {
-    window.speechSynthesis.cancel();
   };
 
   speaker.onerror = function (event) {
     console.log("error", event);
   };
 
-  // Samantha 보이스 설정
-  let voiceFound = false;
-  for (let voice of voices) {
-    if (voice.name === "Samantha") {
-      speaker.voice = voice;
-      voiceFound = true;
-      break;
-    }
-  }
-
   if (!voiceFound) {
     alert("voice not found");
     return;
   }
 
+  const idx = voiceBox.selectedIndex;
+  const selectedVoice = voiceBox.options[idx].value;
+  console.log(selectedVoice);
+  speaker.voice = voices[selectedVoice];
   speaker.lang = LANG; // 언어
   speaker.pitch = pitch.value; // 음 높이
   speaker.rate = rate.value; // 속도
@@ -103,9 +106,7 @@ function answerHandler(e) {
 }
 
 function pauseHandler(e) {
-  if (speaker) {
-    speaker.onpause();
-  }
+  window.speechSynthesis.cancel();
 }
 
 // 주어진 배열에서 요소 1개를 랜덤하게 골라 반환하는 함수
