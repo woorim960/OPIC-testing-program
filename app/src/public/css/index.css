@@ -4,6 +4,10 @@ body {
   margin: 10px 0 0 10px;
 }
 
+.red {
+  color:rgb(209, 54, 54);
+}
+
 h1 {
   font-size: 30px;
   font-weight: bold;
@@ -117,5 +121,16 @@ label {
 
   h4 {
     margin-top: 4px;
+  }
+}
+
+@media (max-width: 400px) {
+  .select-form article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .voices {
+    margin-top: 15px;
   }
 }
