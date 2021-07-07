@@ -1,6 +1,6 @@
 {
   "name": "opic-testing-program",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "OPIC 시험 대비를 위한 연습용 프로그램",
   "main": "app.js",
   "bin": {
