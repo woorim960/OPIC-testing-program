@@ -34,13 +34,24 @@ if (window.speechSynthesis.onvoiceschanged !== undefined) {
 
 const voices = {};
 let voiceFound = false;
+setTopicList();
 setVoiceList();
+
+// questions을 SelectBox에 추가
+function setTopicList() {
+  for (let topic in questions) {
+    const option = document.createElement("option");
+      option.value = topic;
+      option.innerHTML = topic;
+      selectBox.appendChild(option);
+  }
+}
 
 // TTS를 지원하는 보이스들을 전부 불러온다.
 function setVoiceList() {
   const allVoice = window.speechSynthesis.getVoices();
 
-  // OS별 보이스를 찾아서 SelectBox에 추가
+  // OS별 보이스를 찾아서 VoiceBox에 추가
   for (let voice of allVoice) {
     if (voice.lang.includes("en") && !voice.name.includes("Google")) {
       const option = document.createElement("option");
