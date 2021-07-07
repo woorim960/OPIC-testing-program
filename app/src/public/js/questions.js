@@ -34,6 +34,21 @@ const questions = {
     What was the first impression you had of your neighbors?
     What did you say to each other?`,
   ],
+  "동네묘사(1-1)": [
+    `Can you describe the area around your home?
+    Are there any parks or schools?
+    Describe the neighborhood where you live in as much detail as possible.`
+  ],
+  "동네묘사(1-2)": [
+    `Where do you most often visit in your neighborhood?
+    Where is it located and how often do you visit?
+    What do you usually do in that place?`
+  ],
+  "동네묘사(2)": [
+    `Can you think of a memorable event that happened in your neighborhood
+    since you have been living there?
+    Tell me about the things that happened.`
+  ]
 };
 
 export default questions;

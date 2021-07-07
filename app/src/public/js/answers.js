@@ -116,6 +116,59 @@ const answers = {
     I wanna spend time with them again.
     This is all about my new neighbors.`,
   ],
+  "동네묘사(1-1)": [
+    `Wow, This is a very interesting question.
+    I’d like to talk about my neighborhood.
+    I live in 'Zamsil' in Seoul.
+    My town is very nice to live.
+    There are several things I can see.
+    First of all, there is Olympic park.
+    The park is in my neighborhood.
+    It’s near my home.
+    It takes only 10 minutes to get there.
+    Also, there is a jogging track at the park.
+    I like to go jogging and running.
+    It’s good for my health.
+    Plus, it relieves my stress.
+    Second, there is a movie theater called CGV.
+    I usually go there on the weekend.
+    because I’m very busy working.
+    As you might know, watching movie is my favorite hobby.
+    If I have a chance, I wanna visit there again.
+    This is about my neighborhood.`
+  ],
+  "동네묘사(1-2)": [
+    `Wow, This is a very interesting question.
+    I’d like to talk about my neighborhood.
+    My town is very nice to live.
+    There are lots of things in my neighborhood.
+    Especially, I really like to go to the park.
+    There is Olympic park in my neighborhood.
+    It’s near my home.
+    It takes only 10 minutes to get there.
+    There is a jogging track.
+    I usually go jogging and running on the weekend.
+    As you might know, jogging is very good for health.
+    Plus, it relieves my stress.
+    In addition, there are many trees and small pond.
+    It’s such a good place to spend time with family.
+    If I have a chance, I wanna to go there again.
+    This is all I can share about my favorite place in my neighborhood.`
+  ],
+  "동네묘사(2)": [
+    `Wow, This is a very interesting question.
+    I’d like to talk about a memorable experience in my neighborhood.
+    Last weekend, I went to the park in my neighborhood for jogging with my friends.
+    As you might know, jogging is really good for health.
+    We enjoyed it together.
+    It was very fun and exciting.
+    All of sudden, I found out that I lost my wallet.
+    I checked my pocket but there wasn’t.
+    I looked for it everywhere but I couldn’t find it.
+    I was so sad because the wallet was meaningful to me.
+    I learned that I should be more careful.
+    This is about a memorable experience in my neighborhood.`
+  ]
 };
 
 export default answers;
