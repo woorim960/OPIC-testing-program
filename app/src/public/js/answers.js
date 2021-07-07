@@ -1,7 +1,7 @@
 const answers = {
   자기소개: [
     `Wow, It’s my pleasure to tell you about me.
-    My name is Alece.
+    My name is Alex.
     I’m 26 years old.
     I’ve worked Market for 2 years.
     I live in Seoul. I live with my family.
@@ -22,7 +22,7 @@ const answers = {
     `Wow, this is a very interesting question.
     I’d love to talk about my home.
     I live in Seoul.
-    I live in 래미안 apartment in 잠실.
+    I live in 'Laemian' apartment in 'Zamsil'.
     My apartment is 20 stories building.
     I live on the 7th floor.
     My home has 4 badrooms, one big living room, and 2 bathrooms.
@@ -62,7 +62,7 @@ const answers = {
     `Wow, this is a very interesting question.
     I’d love to talk about my memorable experience at my home.
     2 years ago, my family threw my birthday party.
-    혹은. My family threw my birthday party when I was young.
+    OR. My family threw my birthday party when I was young.
     My family prepared everything for me.
     The most memorable thing was my mother made a birthday cake.
     It was very delicious.
@@ -89,7 +89,7 @@ const answers = {
     Jogging is very good for health.
     In addition, it relieves my stress.
     So, we go for jogging and running.
-    Second, we usually go to the movie theater on the weeken.
+    Second, we usually go to the movie theater on the weekend.
     We like to watch movies.
     Therefore, when new movies are released,
     we go to the movie theater for watching movies.
