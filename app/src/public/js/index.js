@@ -3,8 +3,6 @@
 import questions from "./questions.js";
 import answers from "./answers.js";
 
-const LANG = "en-US";
-
 const selectBox = document.querySelector("select");
 const speakBtn = document.querySelector(".speak-btn");
 const answerBtn = document.querySelector(".answer-btn");
@@ -44,9 +42,10 @@ function setVoiceList() {
 
   // OS별 보이스를 찾아서 SelectBox에 추가
   for (let voice of allVoice) {
-    if (voice.lang === LANG) {
+    if (voice.lang.includes("en") && !voice.name.includes("Google")) {
       const option = document.createElement("option");
       option.value = voice.name;
+      option.setAttribute("lang", voice.lang);
       option.innerHTML = voice.name;
       voices[voice.name] = voice;
       voiceBox.appendChild(option);
@@ -81,9 +80,10 @@ function speech(txt) {
 
   const idx = voiceBox.selectedIndex;
   const selectedVoice = voiceBox.options[idx].value;
-  console.log(selectedVoice);
+  const lang = voiceBox.options[idx].getAttribute("lang");
+
   speaker.voice = voices[selectedVoice];
-  speaker.lang = LANG; // 언어
+  speaker.lang = lang; // 언어
   speaker.pitch = pitch.value; // 음 높이
   speaker.rate = rate.value; // 속도
   window.speechSynthesis.speak(speaker);
