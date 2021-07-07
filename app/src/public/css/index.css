@@ -106,6 +106,16 @@ label {
   width: 160px;
 }
 
+.script {
+  padding: 0 20px 30px 0;
+}
+
+@media (max-width: 260px) {
+  .main-title {
+    font-size: 13px;
+  }
+}
+
 @media (max-width: 300px) {
   h1 {
     font-size: 22px;
@@ -121,6 +131,12 @@ label {
 
   h4 {
     margin-top: 4px;
+  }
+}
+
+@media (max-width: 360px) {
+  .btn {
+    width: 50px;
   }
 }
 
