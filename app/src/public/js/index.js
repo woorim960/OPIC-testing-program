@@ -109,6 +109,9 @@ function speakHandler(e) {
 }
 
 function answerHandler(e) {
+  // 기존에 동작중이던 스피킹 종료
+  window.speechSynthesis.cancel();
+
   const idx = selectBox.selectedIndex;
   const selected = selectBox.options[idx];
   const choicedMsg = randomItem(answers[selected.value]);
