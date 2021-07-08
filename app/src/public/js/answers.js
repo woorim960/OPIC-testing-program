@@ -135,7 +135,7 @@ const answers = {
     because I’m very busy working.
     As you might know, watching movie is my favorite hobby.
     If I have a chance, I wanna visit there again.
-    This is about my neighborhood.`
+    This is about my neighborhood.`,
   ],
   "동네묘사(1-2)": [
     `Wow, This is a very interesting question.
@@ -153,7 +153,7 @@ const answers = {
     In addition, there are many trees and small pond.
     It’s such a good place to spend time with family.
     If I have a chance, I wanna to go there again.
-    This is all I can share about my favorite place in my neighborhood.`
+    This is all I can share about my favorite place in my neighborhood.`,
   ],
   "동네묘사(2)": [
     `Wow, This is a very interesting question.
@@ -167,8 +167,84 @@ const answers = {
     I looked for it everywhere but I couldn’t find it.
     I was so sad because the wallet was meaningful to me.
     I learned that I should be more careful.
-    This is about a memorable experience in my neighborhood.`
-  ]
+    This is about a memorable experience in my neighborhood.`,
+  ],
+  "장소묘사(random)": [
+    `Wow, This is a very interesting question.
+    Let me share about ___.
+    There is a ___ in my neighborhood.
+    It is near my home.
+    It takes only 10 minutes to get there.
+    I usually go to there on the weekend.
+    There are several things I can see.
+    First of all, there are staffs.
+    They are well-dressed with black and white uniforms.
+    They are very kind and nice.
+    Whenever I visit there they offer great service.
+    Second, there is a parking lot.
+    It’s big so it’s easy to park my car.
+    Actually, I’m not a good driver so I need enough space to park my car.
+    Also, (주제 장소에 해당되는 개별 스크립트).
+    If I have a chance, I wanna visit there again.
+    This is all about ___.`,
+  ],
+  "장소묘사(store)": [
+    `Wow, This is a very interesting question.
+    Let me share about Department store.
+    There is a department store called Galleria in my neighborhood.
+    It’s near my home.
+    It takes only 10 minutes to get there.
+    I usually go to there on the weekend.
+    There are several things I can see.
+    First of all, there are staffs.
+    They are well-dressed with black and white uniforms.
+    They are very kind and nice.
+    Whenever I visit there they offer great service.
+    Second, there is a parking lot.
+    It’s big so it’s easy to park my car.
+    Actually, I’m not a good driver so I need enough space to park my car.
+    Also, they have many different kinds of products such as clothes,
+    electronic devices and grocery.
+    Every weekend, my family likes to go department store for grocery shopping.
+    We usually buy food such as meat, vegetable and snacks.
+    If I have a chance, I wanna visit there again.
+    This is all about the department store I usually go to.`,
+  ],
+  "경험묘사(store)": [
+    `Wow, This is a very interesting question.
+    Let me share about my memorable experience at the department store.
+    I usually go to a department store called the Galleria in my neighborhood.
+    It’s near my home.
+    It takes only 10 minutes to get there.
+    Last weekend, I went to the Galleria to buy something with my friends.
+    They have many defferent kinds of products such as clothes, electronic devices, and grocery.
+    So, I usually go there on the weekend for shopping.
+    Anyways, I was trying to find my credit card to pay my stuff, (oh my god)
+    I realized that I lost my wallet.
+    So, I looked for it everywhere. but I couldn’t find it.
+    I was so depressed because I needed my wallet and card.
+    Fortunately, my wallet was at home.
+    I learned that I should be more careful.
+    I can’t forget the day.
+    This is all about my memorable experience at the department store I usually go to.`,
+  ],
+  "경험묘사(random)": [
+    `Wow, This is a very interesting question.
+    Let me share about my memorable experience at ___.
+    I usually go to ___ in my neighborhood.
+    It’s near my home.
+    It takes only 10 minutes to get there.
+    Last weekend, I went to ___ to ___ with my friends.
+    (주제 장소에 해당되는 개별 스크립트).
+    Anyways, I was trying to find my credit card to pay my stuff, (oh my god)
+    I realized that I lost my wallet.
+    So, I looked for it everywhere. but I couldn’t find it.
+    I was so depressed because I needed my wallet and card.
+    Fortunately, my wallet was at home.
+    I learned that I should be more careful.
+    I can’t forget the day.
+    This is all about my memorable experience at the _.`,
+  ],
 };
 
 export default answers;

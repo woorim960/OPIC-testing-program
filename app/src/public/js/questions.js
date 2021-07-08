@@ -37,18 +37,38 @@ const questions = {
   "동네묘사(1-1)": [
     `Can you describe the area around your home?
     Are there any parks or schools?
-    Describe the neighborhood where you live in as much detail as possible.`
+    Describe the neighborhood where you live in as much detail as possible.`,
   ],
   "동네묘사(1-2)": [
     `Where do you most often visit in your neighborhood?
     Where is it located and how often do you visit?
-    What do you usually do in that place?`
+    What do you usually do in that place?`,
   ],
   "동네묘사(2)": [
     `Can you think of a memorable event that happened in your neighborhood
     since you have been living there?
-    Tell me about the things that happened.`
-  ]
+    Tell me about the things that happened.`,
+  ],
+  "장소묘사(random)": [
+    `Describe the parks that you like to go.`,
+    `Please describe your favorite shopping`,
+    `Tell me about the movie theater you go to often.`,
+  ],
+  "장소묘사(store)": [
+    `Where do you like to go shopping?
+    Do you shop at a department store or a shopping mall?
+    Please describe your favorite shopping place.`,
+  ],
+  "경험묘사(random)": [
+    `Describe some of the memorable experience that happened at the parks where you visited`,
+    `Tell me about a special incident that happened at the movie theater.`,
+  ],
+  "경험묘사(store)": [
+    `Do you have a special shopping experience?
+    What were you shopping for?
+    When was it? Who were you with?
+    Tell me about the experience.`,
+  ],
 };
 
 export default questions;
