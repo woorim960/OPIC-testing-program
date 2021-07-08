@@ -39,7 +39,7 @@ $ vi .env
 PORT=10000
 ```
 
-2. 도커를 이용한 ```trello-node-mvc``` 이미지 실행
+2. 도커를 이용한 ```opic-testing-program``` 이미지 실행
 ```
 # /workdir은 본인의 작업 경로입니다.
 $ docker run --env-file /workdir/.env -p 10000:10000 dnfla960/opic-testing-program
