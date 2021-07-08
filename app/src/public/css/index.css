@@ -47,6 +47,15 @@ a:hover {
   font-weight: bold;
 }
 
+.small-text-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.small-text {
+  font-size: 10px;
+}
+
 .select-form {
   margin-top: 12px;
 }
@@ -70,7 +79,7 @@ select:hover {
 
 .btn {
   text-align: center;
-  width: 90px;
+  width: 100px;
   margin-right: 6px;
   padding: 5px;
   color: whitesmoke;
