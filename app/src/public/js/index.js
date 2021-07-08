@@ -53,7 +53,7 @@ function setVoiceList() {
 
   // OS별 보이스를 찾아서 VoiceBox에 추가
   for (let voice of allVoice) {
-    if (voice.lang.includes("en") && !voice.name.includes("Google")) {
+    if (voice.lang.includes("en")) {
       const option = document.createElement("option");
       option.value = voice.name;
       option.setAttribute("lang", voice.lang);
