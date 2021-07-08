@@ -41,9 +41,9 @@ setVoiceList();
 function setTopicList() {
   for (let topic in questions) {
     const option = document.createElement("option");
-      option.value = topic;
-      option.innerHTML = topic;
-      selectBox.appendChild(option);
+    option.value = topic;
+    option.innerHTML = topic;
+    selectBox.appendChild(option);
   }
 }
 
@@ -101,6 +101,9 @@ function speech(txt) {
 }
 
 function speakHandler(e) {
+  // 기존에 동작중이던 스피킹 종료
+  window.speechSynthesis.cancel();
+
   const idx = selectBox.selectedIndex;
   const selected = selectBox.options[idx];
   const choicedMsg = randomItem(questions[selected.value]);
