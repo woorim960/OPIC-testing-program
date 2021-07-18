@@ -69,6 +69,60 @@ const questions = {
     When was it? Who were you with?
     Tell me about the experience.`,
   ],
+  "경험묘사(random/Ex-girlfriend)": [
+    `Describe some of the memorable experience that happened at the parks where you visited`,
+    `Tell me about a special incident that happened at the movie theater.`,
+  ],
+  "경험묘사(Ex-girlfriend)": [
+    `I’d like to know about one of your memorable experiences at a concert.
+    Tell me what exactly happened.
+    Tell me about the experience with a lot of detail.`,
+  ],
+  "나도좋아해(books)": [
+    `I like to read books, too.
+    Ask me three to four questions in order to find out my favorite author.`,
+  ],
+  "영화보기(1-장소묘사)": [
+    `You indicated that you go to the movies in your free time.
+    Where do you usually go to see a movie?
+    Describe the movie theater you often go to.`,
+  ],
+  "영화보기(1-경험묘사)": [
+    `I’d like to know about one of your memorable experiences at a movie theater.
+    Tell me what exactly happend.
+    Tell me about the experience with a lot of detail.`,
+  ],
+  "영화보기(2-영화관가기전)": [
+    `Tell me the things that you do before you go to a movie theater.
+    Do you check what is playing before you leave.
+    If so, what do you use to get information?
+    Tell me what you typically do before going to a theater.`,
+  ],
+  "영화보기(2-나도좋아해)": [
+    `I enjoy going to the movies, too.
+    Ask me three or four questions to find out what kind of movies I like to see.`,
+  ],
+  "콘서트/공연(1-장소묘사)": [
+    `You indicated in the servey that you like to go to concerts.
+    I want to  know about your favorite concert hall.
+    Where is it?
+    What makes the concert hall different from others?`,
+    `Which theater or auditorium do you like the most?
+    Where is it?
+    What do you like about it?
+    Tell me about a show that you have seen at this place.`,
+  ],
+  "콘서트/공연(1-경혐묘사)": [
+    `I’d like to know about one of your memorable experiences at a theater.
+    Tell me what exactly happened.
+    Why was theater so memorable?
+    Tell me about the experience with a lot of detail.`,
+  ],
+  "콘서트/공연(2-콘서트)": [
+    `You indicated in the servey that you go to the concert hall to watch concerts?
+    What kind of concerts do you like to go to?
+    Why do you like going to these events?`,
+  ],
 };
 
 export default questions;
