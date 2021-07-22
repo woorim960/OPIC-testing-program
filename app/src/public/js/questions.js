@@ -112,7 +112,7 @@ const questions = {
     What do you like about it?
     Tell me about a show that you have seen at this place.`,
   ],
-  "콘서트/공연(1-경혐묘사)": [
+  "콘서트/공연(1-경험묘사)": [
     `I’d like to know about one of your memorable experiences at a theater.
     Tell me what exactly happened.
     Why was theater so memorable?
@@ -122,6 +122,84 @@ const questions = {
     `You indicated in the servey that you go to the concert hall to watch concerts?
     What kind of concerts do you like to go to?
     Why do you like going to these events?`,
+  ],
+  "콘서트/공연(2-공연)": [
+    `You indicated in the survey that you go to the theater to watch performances.
+    What kind of theater performances do you like to go to?
+    Why do you like going to these events?`,
+  ],
+  "음악감상(1-장르)": [
+    `You indicated in the survey that you like to listen to music. 
+    What kind of music do you like,
+    and When do you usually listen to it?
+    Give as many details as possible.`,
+    `Why do you like listening to muisic?
+    How and When do you typically listen to music?
+    Give me all the details.`,
+    `Tell me about a singer you like.
+    Why do you like that singer?
+    What are some popular genres of music these days?`,
+  ],
+  "음악감상(1-경험묘사)": [
+    `Tell me about a memorable incident regarding music.
+    What made that incident so memorable?`,
+  ],
+  "음악감상(2-technology)": [
+    `How do you normally listen to music?
+    With an MP3 or a CD player?
+    Why do you like listen to music with this technology?`,
+  ],
+  "헬스클럽(1-장소묘사)": [
+    `You indicated in the servey that you go to the gym.
+    Where is your gym located?
+    and What kind of equipment or machines are there?
+    Tell me what your gym looks like.`,
+  ],
+  "헬스클럽(1-나도좋아해)": [
+    `I go to a nice gym.
+    Ask me three or four questions to learn more about my gym.`,
+  ],
+  "헬스클럽(2-first&last things)": [
+    `I’d like to know what exercises you typically do at the gym.
+    How do you have practice them?
+    and What is the first thing you do as soon as you arrive at the gym?
+    and What is the last thing you do before leaving?`,
+  ],
+  "공원가기(1-what people do)": [
+    `Tell me what adults and children do together at the parks you often go to.`,
+  ],
+  "공원가기(2-경험묘사)": [
+    `Describe some of the memorable events that happened at the parks where you visited.`,
+    `Tell me about a memorable or interesting event that happened in a park.
+    What exactly happened?
+    Why were it so memorable to you?
+    Please tell me about it in as much detail as possible.`,
+  ],
+  "조깅(1-about)": [
+    `In your survey, you indicated that you like to go jogging.
+    Where do you like to go?
+    Why do you go jogging?
+    What are the advantages of jogging?`,
+    `You indicated in the survey that you like jogging.
+    Where, when, and how often do you go jogging? 
+    Do you bring anything?
+    Tell me as much details as possible.`,
+  ],
+  "조깅(1-나도좋아해)": [
+    `I like to jog, too.
+    Ask me three or four questions about jogging.`,
+  ],
+  "조깅(2-경험묘사)": [
+    `Tell me about some of the jogging experiences you have had.
+    Where did you go jogging? Were you with anyone?`,
+    `Have you recently had any jogging experience that is unforgettable?
+    If so, start by telling me how old you were and when it was.
+    Then, tell me all of the thing that made the experience unforgettable.`,
+  ],
+  "조깅(2-걷기와비교)": [
+    `There are similarities and differences between jogging and walking.
+    What do you think they are?
+    Why did you choose jogging rather than walking?`,
   ],
 };
 

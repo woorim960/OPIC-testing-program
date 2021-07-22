@@ -443,6 +443,279 @@ const answers = {
     If I have a chance, I wanna go there again.
     This is all about the concert.`,
   ],
+  "콘서트/공연(2-공연)": [
+    `Wow, this is a very interesting question.
+    Let me share about the performance.
+    I usually go to the theater called Seoul Art Center in my neighborhood.
+    It’s near my home.
+    It takes only 10 minutes to get there.
+    I like to watch performances.
+    It’s very fun and exciting.
+    Especially, I love musical the most.
+    Musical contains singing and playing.
+    My favorite musical is Mama Mia.
+    I watched Mama Mia last year with my friend.
+    It was my first time.
+    It was very amazing and interesting.
+    We enjoyed it togethter.
+    I can’t forget the day.
+    If I have a chance, I wanna go there again.
+    This is all about the performance I like.`,
+  ],
+  "음악감상(1-장르)": [
+    `Wow, this is a very interesting question.
+    I’d like to talk about the music (I like).
+    My favorite music is K-POP.
+    Also, K-POP is the most popular genre(music style) in Korea.
+    I like listening to music by my smartphone.
+    It’s very convenient and useful.
+    In addition, I listen to music on the weekend when I have free time.
+    It relives my stress.
+    (and...)
+    Oh! My favorite singer is PSY.
+    Do you know him?
+    He is very famous in Korea.
+    I like his song ‘Gangnam Style’.
+    This song is very fun and exciting.
+    If you haven’t heard this song, try listening to it.
+    You’re gonna like it very much.
+    Anyways, this is about the music I like.`,
+  ],
+  "음악감상(1-경험묘사)": [
+    `Wow, this is a very interesting question.
+    I’d like to talk about my memorable music experience.
+    I usually go to the concert hall called Seoul Art Center in my neighborhood.
+    It’s near my home.
+    It takes only 10 minutes to get there.
+    Last weekend, I went to the concert hall for watching PSY with my friends.
+    As you might know, My favorite singer is PSY.
+    Also, he is very famous in Korea.
+    I like his song ‘Gangnam Style’.
+    We enjoyed it together.
+    While I was watching his concert,
+    I met my ex-girlfriend.
+    so, I was stunned and surprised because she was my first love.
+    She was looking good.
+    We noticed each other and smiled, I hope she’ll be happy.
+    I can’t forget the day.
+    This is about my memorable experience regarding music.`,
+  ],
+  "음악감상(2-technology)": [
+    `Wow, this is a very interesting question.
+    I’d like to talk about music.
+    I usually listen to music by my smartphone.
+    It’s very convenient and useful.
+    Also, I listen to music when I commute.
+    I enjoy listening to music because It relives my stress.
+    There are many good things when I listen to music by my smartphone.
+    First of all, it’s portable.
+    I can listen to music anytime I want.
+    I can use music application by my smartphone.
+    It’s very easy to use.
+    I just download songs from the application.
+    I don’t need to bring many CDs.
+    I love my smartphone.
+    Anyways, this is about how I listen to music.`,
+  ],
+  "헬스클럽(1-장소묘사)": [
+    `Wow, this is a very interesting question.
+    Let me share about my gym.
+    There is a gym called Zest Gym in my neighborhood.
+    It’s near my home.
+    It takes only 10 minutes to get there.
+    I usually go to there on the weekend.
+    There are several things I can see.
+    First of all, there are staffs and personal trainers.
+    They are well-dressed with black and white uniforms.
+    They are very kind and nice.
+    Whenever I visit there, they offer great service.
+    Second, there is a parking lot.
+    It’s big so it’s easy to park my car.
+    Actually, I’m not a good driver so I need enough space to park my car.
+    Also, there are many different kinds of machines such as treadmill, stationary bicycles, and weight machines.
+    My favorite equipment is treadmill.
+    I like jogging and running because it’s good for my health.
+    If I have a chance, I wanna go there again.
+    This is about the gym (I usually go to).`,
+  ],
+  "헬스클럽(1-나도좋아해)": [
+    `Hello, Eva. This is woorim park.
+    How’s everything?
+    I heard that you also like to go to the gym just like I do.
+    So, I have a few questions about your gym.
+    Do you mind?
+    First of all, what kind of exercise do you like?
+    In my case, I like jogging the most.
+    And... When do you usually go to the gym?
+    I usually go to the gym on the weekend because I’m very busy working.
+    What else... Oh!
+    Where is your gym?
+    I go to the gym called Zest Gym in my neighborhood.
+    It’s near my home.
+    It takes only 10 minutes to get there.
+    Lastly, I have one more question.
+    What is your favorite machine?
+    My favorite machine is treadmill.
+    Thank you very much.
+    I’m happy to get to know you.
+    Bye~`,
+  ],
+  "헬스클럽(2-first&last things)": [
+    `Wow, this is a very interesting question.
+    Let me share about my gym.
+    There is a gym called Zest Gym in my neighborhood.
+    It’s near my home.
+    It takes only 10 minutes to get there.
+    I usually go there on the weekend.
+    There are several things I do.
+    As soon as I arrive at my gym, I stretch out my body.
+    Warming up is very important.
+    After that, I start working out.
+    There are many different kinds of machines such as treadmill and stationary bicycles.
+    My favorite machine is treadmill.
+    I like jogging because it is good for my health.
+    Last thing I do is taking a shower.
+    I usually take 15 minutes for taking a shower.
+    When I have some time, I do sauna after working out.
+    I like it very much because it relieves my stress.
+    This is all I can say about my exercise at the gym.`,
+  ],
+  "공원가기(1-장소묘사)": [
+    `Wow, this is a very interesting question.
+    Let me share about the park.
+    I usually go to Olympic park in my neighborhood.
+    It’s near my home.
+    It take only 10 minutes to get there.
+    There are several things I can see.
+    First of all, many people enjoy playing sports in summer.
+    They like to play badminton and soccer.
+    I love spending time with my family, too.
+    It’s very fun and exciting.
+    (and...)
+    Second, there are no people at the park in winter.
+    It’s very cold and freezing.
+    When it snows, the streets are covered with snow.
+    It’s very beautiful.
+    Also, there is jogging track.
+    I go jogging and running.
+    It’s good for my health.
+    Plus, it relieves my stress.
+    Anyways, this is about the park in summer and winter.`,
+  ],
+  "공원가기(1-what people do)": [
+    `Wow, this is a very interesting question.
+    Let me share about the park.
+    I usually go to Olympic park in my neighborhood.
+    It’s near my home.
+    It take only 10 minutes to get there.
+    There are several things people do.
+    First of all, adults go jogging and running.
+    There is a jogging track at the park.
+    They like jogging and running for health.
+    Second, children play sports.
+    They like to play badminton.
+    It looks very fun and exciting.
+    When I was young, I loved spending time with my friends.
+    In my case, I like going to the park on the weekend.
+    Anyways, this is about what adults and children do at the park.`,
+  ],
+  "공원가기(2-경험묘사)": [
+    `Wow, This is a very interesting question.
+    Let me share about my memorable experience at the park.
+    I usually go to the park called Olympic park in my neighborhood.
+    It’s near my home.
+    It takes only 10 minutes to get there.
+    Last weekend, I went to the park for jogging with my friends.
+    그 장소에 해당되는 개별 스크립트 2~3줄
+    There is a jogging track at the park.
+    I like to go jogging and running.
+    It’s good for my health.
+    Also, it relieves my stress.
+    Anyways, I was trying to find my credit card to buy water, (oh my god)
+    I realized that I lost my wallet.
+    So, I looked for it everywhere But I couldn’t find it.
+    I was so depressed because I needed my credit card.
+    Fortunately, my wallet was at my home.
+    I learned that I should be more careful.
+    I can’t forget the day.
+    This is all about my memorable experience at the park.`,
+  ],
+  "조깅(1-about)": [
+    `Wow, this is a very interesting question.
+    Let me share about jogging.
+    I usually go to the park called Olympic Park in my neighborhood.
+    It’s near my home.
+    It take only 10 minutes to get there.
+    I like to go jogging on the weekend because I’m very busy working.
+    Jogging has lots of advantages(good things).
+    First of all, jogging is good for health.
+    Jogging burns more calories while running.
+    In addition, it consumes more energy.
+    It helps me lose my weight.
+    Oh! and, I always bring water when I jog.
+    If I have a chance, I wanna go jogging again.
+    This is about jogging.`,
+  ],
+  "조깅(1-나도좋아해)": [
+    `Hello, Eva. This is woorim park.
+    How’s everything?
+    I heard that you also like to go jogging just like I do.
+    So, I have a few questions about jogging.
+    Do you mind?
+    First of all, what kind of exercise do you like?
+    In my case, I like jogging the most.
+    And... When do you usually go for jogging?
+    I usually go for jogging on the weekend because I’m very busy working.
+    What else... Oh!
+    Where do you go jogging?
+    I go to the park called Olympic park in my neighborhood.
+    It’s near my home.
+    It takes only 10 minutes to get there.
+    Lastly, I have one more question.
+    What do you usually wear when jogging?
+    I wear tracksuit and running shoes.
+    Theses are very comfortable while jogging.
+    Thank you very much.
+    I’m happy to get to know you.
+    Bye~`,
+  ],
+  "조깅(2-경험묘사)": [
+    `Wow, this is a very interesting question.
+    I’d like to talk about my memorable jogging experience.
+    I usually go to the park called Olympic Park in my neighborhood.
+    It’s near my home.
+    It takes only 10 minutes to get there.
+    Last weekend, I went to the park for jogging with my friends.
+    There is a jogging track at the park.
+    I like to go jogging and running.
+    It’s good for my health.
+    Also, it relieves my stress.
+    We enjoyed it together.
+    While I was jogging at the park,
+    I met my ex-girlfriend.
+    so, I was stunned and surprised because she was my first love.
+    She was looking good.
+    We noticed each other and smiled, I hope she’ll be happy.
+    I can’t forget the day.
+    This is about my memorable experience regarding jogging.`,
+  ],
+  "조깅(2-걷기와비교)": [
+    `Wow, this is a very interesting question.
+    I’d like to talk about jogging and walking.
+    I like to go jogging and walking.
+    There are several things I can say about jogging and walking.
+    first of all, jogging is much harder than walking.
+    That is  because jogging burns more calories.
+    Also, it consumes more energy.
+    Second, walking is easier than jogging.
+    Actually, I choose both jogging and walking
+    These are my favorite things.
+    In addition, I like jogging and walking on the weekend at the park.
+    It’s very good for my health.
+    Also, it relieves my stress.
+    Therefore, I really enjoy both jogging and walking.
+    This is about jogging and walking.`,
+  ],
 };
 
 export default answers;
