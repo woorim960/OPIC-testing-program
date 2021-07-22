@@ -539,7 +539,7 @@ const answers = {
     This is about the gym (I usually go to).`,
   ],
   "헬스클럽(1-나도좋아해)": [
-    `Hello, Eva. This is woorim park.
+    `Hello, Eva. This is Alex.
     How’s everything?
     I heard that you also like to go to the gym just like I do.
     So, I have a few questions about your gym.
@@ -657,7 +657,7 @@ const answers = {
     This is about jogging.`,
   ],
   "조깅(1-나도좋아해)": [
-    `Hello, Eva. This is woorim park.
+    `Hello, Eva. This is Alex.
     How’s everything?
     I heard that you also like to go jogging just like I do.
     So, I have a few questions about jogging.
