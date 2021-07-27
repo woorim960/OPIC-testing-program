@@ -22,7 +22,7 @@ const answers = {
     `Wow, this is a very interesting question.
     I’d love to talk about my home.
     I live in Seoul.
-    I live in 'Laemian' apartment in 'Zamsil'.
+    I live in 'Laemian' apartment in 'ZamSil'.
     My apartment is 20 stories building.
     I live on the 7th floor.
     My home has 4 badrooms, one big living room, and 2 bathrooms.
@@ -119,7 +119,7 @@ const answers = {
   "동네묘사(1-1)": [
     `Wow, This is a very interesting question.
     I’d like to talk about my neighborhood.
-    I live in 'Zamsil' in Seoul.
+    I live in 'ZamSil' in Seoul.
     My town is very nice to live.
     There are several things I can see.
     First of all, there is Olympic park.
@@ -715,6 +715,457 @@ const answers = {
     Also, it relieves my stress.
     Therefore, I really enjoy both jogging and walking.
     This is about jogging and walking.`,
+  ],
+  "걷기(1-장소묘사)": [
+    `Wow, this is a very interesting question.
+    Let me share about walking.
+    I like to take a walk when I have free time.
+    So, I usually go to a park to walk.
+    There is a park called the Olympic park in my neighborhood.
+    It’s near my home.
+    It takes only 10 minutes to get there.
+    I like to visit the Olympic park.
+    There are several things why I like this park.
+    First of all, There is a jogging track at the park.
+    I like to go jogging and walking.
+    It’s good for my health.
+    Second, there are many trees.
+    I get refreshed when I take a walk.
+    If I have a chance, I wanna go there again.
+    This is about my favorite place for walking.`,
+  ],
+  "걷기(1-경험묘사)": [
+    `Wow, this is a very interesting question.
+    Let me share about my walking experience.
+    Last weekend, I went to a park to walk with my friends.
+    I like to take a walk because it relieves my stress.
+    When I get stressed from work, I like walking at the park.
+    While I was walking, I realized that I lost my wallet.
+    I looked for it everywhere but I couldn’t find it.
+    So, I decided to walk.
+    It took about 2 hours to get my home.
+    I was very tired.
+    When I got home, my wallet was there.
+    I was happy to find my wallet.
+    I learned that I should be more careful.
+    I can’t forget the day.
+    This is about my memorable walking experience.`,
+  ],
+  "걷기(2-과거비교)": [
+    `Wow, this is a very interesting question.
+    Let me share about walking.
+    In my opinion, people walk more than before.
+    That is because they want to keep their health.
+    Actually, they don’t have enough time to work out.
+    They are very busy working.
+    Therefore, They try to work out when they have free time.
+    Also, walking is very good for health.
+    All you have to do is walking with comfortable clothes and shoes.
+    It’s very easy.
+    When I get stressed from work, I like walking at the park.
+    I really enjoy walking and jogging with my friends.
+    Anyways, this is about walking.`,
+  ],
+  "요리하기(1-favorite dish)": [
+    `Wow, this is a very interesting question.
+    Let me share about my cooking.
+    I usually cook Italian food for my family on the weekend.
+    Cooking is my favorite hobby.
+    Especially, I like to cook cream pasta.
+    It’s very easy to make it.
+    Also, it’s very delicious.
+    I’m interested in cooking because my family really loves it.
+    Making cream pasta is very simple.
+    I prepare noddle, cream sauce and some vegetables.
+    After that, I cook cream pasta with these ingredients.
+    I love cooking.
+    It’s very fun and exciting.
+    If I have a chance, I wanna make it for you.
+    This is all about my cooking.`,
+  ],
+  "요리하기(1-경험묘사)": [
+    `Wow, this is a very interesting question.
+    Let me share about my cooking.
+    The question you asked me, I’m sorry but I have no experience.
+    I’m really good at cooking.
+    So, if you don’t mind, I wanna talk about my cooking experience.
+    Last weekend, I cooked Italian food for my family.
+    Cooking is my favorite hobby.
+    I cooked cream pasta.
+    It was very easy to make it.
+    Also, it was very delicious.
+    I’m interested in cooking because my family really loves it.
+    Making cream pasta was very simple.
+    I prepared noddle, cream sauce and some vegetables.
+    After that, I cooked cream pasta with these ingredients.
+    I love cooking.
+    It was very fun and exciting.
+    If I have a chance, I wanna make it for you.
+    This is all about my cooking experience.`,
+  ],
+  "요리하기(2-나도좋아해)": [
+    `Hello, Eva. This is Alex.
+    How’s everything?
+    I heard that you also like to cook just like I do.
+    So, I have a few questions about cooking.
+    Do you mind?
+    First of all, what kind of food do you like?
+    In my case, I like Italian food the most.
+    And... When do you usually cook?
+    I usually cook on the weekend because I’m very busy working.
+    What else... Oh!
+    Where do you usually buy ingredients?
+    I go to a department store called the Galleria in my neighborhood.
+    It’s near my home.
+    It takes only 10 minutes to get there.
+    Lastly, I have one more question.
+    What is your favorite Italian food?
+    My favorite Italian food is cream pasta.
+    It’s very delicious.
+    Thank you very much.
+    I’m happy to get to know you.
+    Bye~`,
+  ],
+  "집안일하기(1-what I do)": [
+    `Wow, this is a very interesting question.
+    Let me share about household chores.
+    I usually do household chores on the weekend because I’m very busy working.
+    There are several things I do.
+    First of all, I do the dishes.
+    It’s very easy.
+    It takes only 10 minutes.
+    Second, I do the laundry.
+    There are a lot of clothes to be cleaned.
+    So, I use a laundry machine.
+    Lastly, I clean my room with my sister.
+    I always use a vacuum cleaner.
+    It’s very convenient and useful.
+    This is about my household chores.`,
+  ],
+  "집안일하기(1-responsible chores)": [
+    `Wow, this is a very interesting question.
+    Let me share about my responsibility at home.
+    I usually do some household chores on the weekend because I’m very busy working.
+    I’m responsible for household chores.
+    There are several things I do at home.
+    First of all, I do the dishes.
+    It’s very easy.
+    It takes only 10 minutes.
+    Second, I do the laundry.
+    There are a lot of clothes to be cleaned.
+    So, I use a laundry machine.
+    Lastly, I clean my room with my sister.
+    I always use a vacuum cleaner.
+    It’s very convenient and useful.
+    This is about my responsibilities at home.`,
+  ],
+  "집안일하기(2-responsible chores)": [
+    `Wow, this is a very interesting question.
+    Let me share about household chores.
+    I’ve never failed to perform my duties because I’m good at household chores.
+    Also, I have special processes and methods when I do household chores.
+    First of all, I do the dishes.
+    It’s very easy.
+    It takes only 10 minutes.
+    Second, I do the laundry.
+    There are a lot of clothes to be cleaned.
+    So, I use a laundry machine.
+    Lastly, I clean my room with my sister.
+    I always use a vacuum cleaner.
+    It’s very convenient and useful.
+    This is about my household chores.`,
+  ],
+  "집안일하기(2-과거)": [
+    `Wow, this is a very interesting question.
+    Let me share about my responsibilities when I was young.
+    I did simple chores when I was a child.
+    At that time, I just wanted to help my parents.
+    There were several things I did at home.
+    First of all, I did the dishes.
+    It was very easy.
+    It took only 10 minutes.
+    Second, I did the laundry.
+    There were a lot of clothes to be cleaned.
+    So, I used a laundry machine.
+    Lastly, I cleaned my room with my sister.
+    I always used a vacuum cleaner.
+    It was very convenient and useful.
+    This is about my responsibilities when I was young.`,
+  ],
+  "집에서 보내는 휴가(1-what I do)": [
+    `Wow, this is a very interesting question.
+    Let me share about my vacation at home.
+    I do several things when I spend my vacation at home.
+    First of all, I cook for my family.
+    I cook cream pasta.
+    I prepare some ingredients such as noodle, cream sauce and vegetables.
+    It’s very delicious.
+    My family really loves it.
+    Second, I do some household chores.
+    I wash the dishes.
+    It’s very easy.
+    Also, I do the laundry.
+    There are a lot of clothes to be cleaned.
+    Therefore, I use a laundry machine.
+    It’s very convenient and useful.
+    Lastly, I go to a park called the Olympic Park in my neighborhood.
+    It’s near my home.
+    It takes only 10 minutes to get there.
+    I go jogging and running.
+    It’s good for my health.
+    This is about my vacation at home.`,
+  ],
+  "집에서 보내는 휴가(1-what I did)": [
+    `Wow, this is a very interesting question.
+    Let me share about my last vacation at home.
+    I did several things when I spent my vacation at home.
+    First of all, I cooked for my family.
+    I cooked cream pasta.
+    I prepared some ingredients such as noodle, cream sauce and vegetables.
+    It was very delicious.
+    My family really loved it.
+    Second, I did some household chores.
+    I washed the dishes.
+    It was very easy.
+    Also, I did the laundry.
+    There were a lot of clothes to be cleaned.
+    Therefore, I used a laundry machine.
+    It was very convenient and useful.
+    Lastly, I went to a park called the Olympic Park in my neighborhood.
+    It’s near my home.
+    It takes only 10 minutes to get there.
+    I went jogging and running.
+    Jogging is good for my health.
+    This is about my last vacation at home.`,
+  ],
+  "집에서 보내는 휴가(2-what I do)": [
+    `Wow, this is a very interesting question.
+    Let me share about my vacation at home.
+    I like to go on a trip during my vacation.
+    However, I need to take a rest when I get stressed from work.
+    Therefore, I prefer to stay home for vacation.
+    What I like the most is watching movies with my family.
+    I usually download the movies from the Internet.
+    Recently, we watched Harry Potter.
+    It was very fun and exciting.
+    Internet is so useful because I can download the movies instantly.
+    It’s very convenient and useful.
+    Also, it costs only 5 dollars.
+    If I have a chance, I wanna watch it again.
+    This is about what I do during my vacation.`,
+  ],
+  "집에서 보내는 휴가(2-what I did)": [
+    `Wow, this is a very interesting question.
+    Let me share about my last vacation at home.
+    I like to go on a trip(=travle) during my vacation.
+    However, I need to take a rest when I get stressed from work.
+    Therefore, I prefer to stay home for vacation.
+    What I like the most is watching movies with my family.
+    I usually download the movies from the Internet.
+    Recently, we watched Harry Potter.
+    It was very fun and exciting.
+    Internet is so useful because I can download the movies instantly.
+    It’s very convenient and useful.
+    Also, it cost only 5 dollars.
+    If I have a chance, I wanna watch it again.
+    This is about what I did during my vacation.`,
+  ],
+  "스포츠관람(1-favorite)": [
+    `Wow, this is a very interesting question.
+    Let me share about my favorite sports.
+    I love watching baseball game.
+    I like to play baseball but I’m not that good.
+    So, I usually go to a stadium to watch baseball game on the weekend.
+    There is a stadium called the 'ZamSil' Stadium in my neighborhood.
+    It’s near my home.
+    It takes only 10 minutes to get there.
+    Oh! For your information, My favorite baseball player is 'Ryu Hyun-jin'.
+    So, I’m a big fan of LA Dodgers.
+    'Ryu Hyun-jin' is very good at playing baseball.
+    He is one of the famous pitchers in Korea.
+    I love watching a sporting event with my friends.
+    It’s very fun and exciting.
+    Also, it relieves my stress while seeing a game.
+    If I have a chance, I wanna watch a game again.
+    This is about my favorite sports.`,
+  ],
+  "스포츠관람(2-경험묘사)": [
+    `Wow, this is a very interesting question.
+    Let me share about a sporting event.
+    I love watching soccer game.
+    I like to play soccer but I’m not that good.
+    So, I usually go to a stadium to watch soccer game on the weekend.
+    Last weekend, I went to a stadium called 'SangAm' Stadium in my neighborhood.
+    It’s near my home.
+    It takes only 10 minutes to get there.
+    I went there with my friends.
+    We enjoyed it together.
+    It was very fun and exciting.
+    My favorite soccer player is 'Son Heung-Min'.
+    So, I’m a big fan of Tottenham.
+    Tottenham won the game!
+    I was so happy.
+    I can’t forget the day.
+    If I have a chance, I wanna watch it again.
+    This is all about a sporting event I’ve been to.`,
+  ],
+  축구: [
+    `Wow, this is a very interesting question.
+
+    Let me share about soccer.
+    I love watching soccer game.
+    I like to play soccer but I’m not that good.
+    So, I usually go to a stadium to watch baseball game on the weekend.
+    There is a stadium called the 상암 Stadium in my neighborhood.
+    It’s near my home.
+    It takes only 10 minutes to get there on foot.
+    Oh! For your information, My favorite soccer player is 'Son Heung-Min'.
+    So, I’m a big fan of Tottenham.
+    Watching soccer game is very fun and exciting.
+    (and...) if you don’t know soccer well, I let you know the rules.
+    To play soccer, it needs a soccer ball and players.
+    Also, they need 11 players in each team.
+    To win the game, they have to make more points than the other.
+    If I have a chance, I wanna watch a game again.
+    This is about soccer.`,
+  ],
+  야구: [
+    `Wow, this is a very interesting question.
+    Let me share about baseball.
+    I love watching baseball game.
+    I like to play baseball but I’m not that good.
+    So, I usually go to a stadium to watch baseball game on the weekend.
+    There is a stadium called the 'ZamSil' Stadium in my neighborhood.
+    It’s near my home.
+    It takes only 10 minutes to get there.
+    Oh! For your information, My favorite baseball player is 'Ryu Hyun-jin'.
+    So, I’m a big fan of LA Dodgers.
+    Watching base ball is very fun and exciting.
+    (and...) if you don’t know baseball well, I let you know the rules.
+    To play baseball, it needs a baseball, bats, gloves and players.
+    Also, they need 9 players in each team.
+    To win the game, they have to make more points than the other.
+    If I have a chance, I wanna watch the game again.
+    This is about baseball.`,
+  ],
+  "국내여행(1-what I do)": [
+    `Wow, this is a very interesting question.
+  Let me share about my domestic trip.
+  I like to visit Jeju Island during my summer vacation.
+  I prefer to go there because it’s very beautiful.
+  There are a lot of things to see.
+  First of all, there is a beautiful beach called the 중문.
+  I love to walk along the beach with my family.
+  Also, I like swimming at the beach.
+  It’s very fun and exciting.
+  Second, I eat local food.
+  Jeju Island is famous for seafood.
+  Especially, I love seafood barbeque.
+  It’s very delicious because it’s served fresh.
+  If I have a chance, I wanna go there again.
+  This is about my trip in my country.`,
+  ],
+  "국내여행(1-plans)": [
+    `Wow, this is a very interesting question.
+    Let me share about my plans for a domestic trip.
+    I like to go on a trip because it’s very fun and exciting.
+    There are several things I consider.
+    First of all, I consider the place where I stay at.
+    I usually stay at the Hilton Hotel because they offer great service.
+    Second, I make plans in detail where to visit.
+    It can save my time.
+    Lastly, I don’t like to carry big luggage.
+    So, I usually pack lightly.
+    It’s very convenient and useful.
+    This is about what I plan for a domestic trip.`,
+  ],
+  "국내여행(2-what I did)": [
+    `Wow, this is a very interesting question.
+    Let me share about my domestic trip when I was young.
+    I visited Jeju Island during my summer vacation when I was a child.
+    Jeju Island was very beautiful.
+    There were a lot of things to see.
+    First of all, there was a beautiful beach called the 'Joong Moon'.
+    I loved to walk along the beach with my family.
+    Also, I liked swimming at the beach.
+    It was very fun and exciting.
+    Second, I ate local food.
+    Jeju Island is famous for seafood.
+    Especially, I loved seafood barbeque.
+    It was very delicious because it was served fresh.
+    If I have a chance, I wanna go there again.
+    This is about my domestic trip when I was young.`,
+  ],
+  "국내여행(2-why I gave up)": [
+    `Wow, this is a very interesting question.
+    Let me share about my domestic trip.
+    The question you asked me, I’m so sorry but I have no experience.
+    So, if you don’t mind, I love to talk about my last trip.
+    2 years ago, I visited Jeju Island during my summer vacation.
+    Jeju Island was very beautiful.
+    There were a lot of things to see.
+    First of all, there was a beautiful beach called the 'Joong Moon'.
+    I loved to walk along the beach with my family.
+    Also, I liked swimming at the beach.
+    It was very fun and exciting.
+    Second, I ate local food.
+    Jeju Island is famous for seafood.
+    Especially, I loved seafood barbeque.
+    It was very delicious because it was served fresh.
+    If I have a chance, I wanna go there again.
+    This is about my last domestic trip in my country.`,
+  ],
+  "해외여행(1-what I do)": [
+    `Wow, this is a very interesting question.
+    Let me share about my internatinal trip.
+    I like to visit Hawaii during my summer vacation.
+    I prefer to go there because it’s very beautiful.
+    There are a lot of things to see.
+    First of all, there is a beautiful beach called the Waikiki.
+    I love to walk along the beach with my family.
+    Also, I like swimming at the beach.
+    It’s very fun and exciting.
+    Second, I eat local food.
+    Hawaii is famous for tropical fruits.
+    Especially, I love coconut juice.
+    It’s very delicious because it’s served fresh.
+    If I have a chance, I wanna go there again.
+    This is about my international trip.`,
+  ],
+  "해외여행(2-what I did)": [
+    `Wow, this is a very interesting question.
+    Let me share about my last internatinal trip.
+    2 years ago, I visited Hawaii during my summer vacation.
+    Hawaii was very beautiful.
+    There were a lot of things to see.
+    First of all, there was a beautiful beach called the Waikiki.
+    I loved to walk along the beach with my family.
+    Also, I liked swimming at the beach.
+    It was very fun and exciting.
+    Second, I ate local food.
+    Hawaii is famous for tropical fruits.
+    Especially, I loved coconut juice.
+    It was very delicious because it was served fresh.
+    If I have a chance, I wanna go there again.
+    This is about my last international trip.`,
+  ],
+  "해외여행(2-나도좋아해)": [
+    `Hello, Eva. This is Alex.
+    How’s everything?
+    I heard that you also like to go on a trip just like I do.
+    Oh! And you told me you like to visit New York for a vacation.
+    So, I have a few questions about New York.
+    Do you mind?
+    First of all, what kind of food do they eat?
+    In my case, I’ve tried Shake Shack burger and it was amazing.
+    And... Can you tell me any famous tourist attractions?
+    I went the Empire State Building and Central Park.
+    What else... Oh!
+    Is there any place to shop?
+    I heard that there is a famous shopping place called 5th Avenue.
+    Thank you very much.
+    If I have a chance, I wanna go there with you.
+    Call me up~, Bye!`,
   ],
 };
 

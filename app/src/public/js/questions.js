@@ -201,6 +201,189 @@ const questions = {
     What do you think they are?
     Why did you choose jogging rather than walking?`,
   ],
+  "걷기(1-장소묘사)": [
+    `What are your favorite places for walking?
+    What are the places like?
+    Where are they located?
+    Describe the places in details.`,
+  ],
+  "걷기(1-경험묘사)": [
+    `Let’s talk about the longest distance that you’ve ever walked.
+    Where and when did you walk?
+    Who were you with?
+    Why did you walk such a long distance?
+    the end of this walk, how did you feel?
+    Please tell me about the memorable experience with a lot of details.`,
+  ],
+  "걷기(2-과거비교)": [
+    `As compared with the past, are people in your country walking more or less frequently?
+    Why have people decided to walk more or less than they did previously?
+    Tell me in details.`,
+  ],
+  "요리하기(1-favorite dish)": [
+    `You indicated that you love to cook in the survey.
+    What’s your favorite dish you like to cook?
+    What do you usually cook?
+    How did you become interested in cooking?`,
+  ],
+  "요리하기(1-경험묘사)": [
+    `There may have been some unexpected incidents while cooking.
+    For example, you may have achieved a result that you didn’t expect or that was not successful.
+    What happened and what did you learn from the experience?`,
+  ],
+  "요리하기(2-나도좋아해)": [
+    `I like to cook, too.
+    I cook Italian food most often.
+    Now ask me three or four questions about how you can cook Italian food well.`,
+  ],
+  "집안일하기(1-what I do)": [
+    `Tell me about some household chores you do at home.
+    Do you do the dishes or do the laundry?
+    What else?`,
+    `You indicated in the survey that you do some household chores.
+    What do you usually do at home?
+    Tell me as much detail as possible.`,
+  ],
+  "집안일하기(1-responsible chores)": [
+    `You indicated in the survey that you are responsible for household chores.
+    What are your responsibilities at home.`,
+  ],
+  "집안일하기(2-responsible chores)": [
+    `On a typical day, how do you handle your responsibilities?
+    Do you have your own methods or processes to deal with house chores?
+    Have you ever failed to perform your duties?`,
+  ],
+  "집안일하기(2-과거)": [
+    `Tell me about the responsibilities you took when you were a child.
+    What was expected of you?
+    I’d also like to know how they differ from what you are required to do these days.
+    Tell me in as much detail as possible.`,
+  ],
+  "집에서 보내는 휴가(1-what I do)": [
+    `You indicated in the survey that you prefer to stay home for vacation.
+    Who do you stay with while you spend your vacation at home?
+    What do you usually do?`,
+  ],
+  "집에서 보내는 휴가(1-what I did)": [
+    `You indicated in the survey that you prefer to stay home for vacation.
+    What did you do last time when you had a vacation at home?
+    Who did you stay with?`,
+  ],
+  "집에서 보내는 휴가(2-what I do)": [
+    `You indicated in the survey that you prefer to stay home for vacation.
+    Who do you stay with while you spend your vacation at home?
+    What do you usually do?`,
+  ],
+  "집에서 보내는 휴가(2-what I did)": [
+    `You indicated in the survey that you prefer to stay home for vacation.
+    What did you do last time when you had a vacation at home?
+    Who did you stay with?`,
+  ],
+  "스포츠관람(1-favorite)": [
+    `You indicated in the survey that you like to watch sports.
+    Which sport do you enjoy watching most?
+    How often do you watch it?
+    When and where do you watch it?`,
+    `You indicated in the survey that you watch professional sports.
+    Tell me about the sports teams and players you like to watch most and why you like them?`,
+    `What’s your favorite sport?
+    And who’s your favorite player?
+    What do you like about him or her?
+    Explain why you like the sport and the player?`,
+  ],
+  "스포츠관람(2-경험묘사)": [
+    `Please tell me about a sporting event you watched recently.
+    Have you ever had a problem when you watched the game?
+    What was it?
+    And how did you solve the problem.
+    Please tell me about the story in detail.`,
+    `Can you describe a sporting event you’ve been to?
+    What was the event?
+    What was game like?
+    What was the final outcome of the game?`,
+  ],
+  축구: [
+    `You indicated in the survey that you like to play soccer.
+    How do you play it?
+    Are there some important rules to play soccer?
+    Give me a detailed description of it.`,
+    `How do you play soccer?
+    Tell me some of the rules?
+    Which route do you take to the stadium?
+    How often do you go?
+    When do you go and who comes with you?`,
+    `You have responded in the survey that you like soccer.
+    Tell me about your favorite soccer team and player.
+    Why do you like them?`,
+  ],
+  야구: [
+    `What’s your favorite baseball team?
+    Why do you like that team?
+    Who’s your favorite player on that team and why?
+    Give me all the details about your favorite baseball team.`,
+    `You indicated that you like baseball.
+    Do you like playing baseball or just watching it on TV?
+    If you play it by yourself, who do you play it with?
+    If you watch it on TV, who do you watch it with?`,
+    `You indicated in the survey that you like to play baseball.
+    How do you play it?
+    Are there some important rules to play baseball?
+    Give me a detailed description of it.`,
+  ],
+  "국내여행(1-what I do)": [
+    `You indicated in the survey that you take vacations within your country.
+    Tell me about some of the places you have traveled domestically.
+    Why do you like going there and how often do you visit that place?`,
+  ],
+  "국내여행(1-plans)": [
+    `You indicated in the survey that you travel domestically. 
+    How do you make plans for a domestic trip?
+    What kind of things do you consider?
+    Can you tell me about the things you put into your bag or luggage when you take a domestic trip?`,
+  ],
+  "국내여행(2-what I did)": [
+    `I’d like to know about a domestic trip you took when you were a child.
+    Where did you go? Who did you go with?
+    What did you do during the trip?
+    Give me as many details as possible.`,
+  ],
+  "국내여행(2-why I gave up)": [
+    `There are times that people plan for a trip, but after some unforeseen events, they cannot go for some reason.
+    Have you had a similar experience?
+    What made you give up the trip?
+    Did something urgent happend?
+    Tell me the full story.`,
+  ],
+  "해외여행(1-what I do)": [
+    `You indicated in the survey that you take vacations internationally.
+    If you had to pick an overseas vacation spot right away, where would you pick and why?`,
+  ],
+  "해외여행(1-foods)": [
+    `Wow, this is a very interesting question.
+    Let me share about the food I eat on a trip.
+    I love trying local food.
+    It’s such a new experience to me.
+    2 years ago, I visited Hawaii during my summer vacation.
+    I loved to eat seafood barbeque and coconut juice in Hawaii.
+    These are the most famous Hawaiian dishes.
+    When I tasted it first, Wow! It was amazing.
+    They were served fresh and so delicious.
+    Once you taste them, You’ll never forget the flavors.
+    I can’t forget the day.
+    If I have a chance, I wanna go there again.
+    This is about the food I eat on a trip.`,
+  ],
+  "해외여행(2-what I did)": [
+    `I’d like to know about last time when you took an international trip.
+    Where did you go?
+    Who did you go with?
+    What did you do during the trip?
+    Give me as many details as possible.`,
+  ],
+  "해외여행(2-나도좋아해)": [
+    `I visit New York, USA often for my vacations.
+    Ask me three or four questions about that place in order to find out whether you want to spend a vacation there too.`,
+  ],
 };
 
 export default questions;
