@@ -2,6 +2,7 @@
 
 import questions from "./questions.js";
 import answers from "./answers.js";
+import randomItem from "./utils/randomItem.js";
 
 const selectBox = document.querySelector("select");
 const speakBtn = document.querySelector(".speak-btn");
@@ -124,9 +125,4 @@ function answerHandler(e) {
 
 function pauseHandler(e) {
   window.speechSynthesis.cancel();
-}
-
-// 주어진 배열에서 요소 1개를 랜덤하게 골라 반환하는 함수
-function randomItem(a) {
-  return a[Math.floor(Math.random() * a.length)];
 }
