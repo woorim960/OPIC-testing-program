@@ -22,13 +22,42 @@ function makeSound(stream) {
   analyser.connect(audioCtx.destination);
 }
 
-if (navigator.mediaDevices) {
-  console.log("getUserMedia supported.");
+let timer;
+function startTimer() {
   let time = 0;
   let hour = 0;
   let min = 0;
   let sec = 0;
-  let timer;
+
+  record.innerHTML = "00:00:00";
+
+  timer = setInterval(() => {
+    time++;
+
+    min = Math.floor(time / 60);
+    hour = Math.floor(min / 60);
+    sec = time % 60;
+    min = min % 60;
+
+    let th = hour;
+    let tm = min;
+    let ts = sec;
+    if (th < 10) {
+      th = "0" + hour;
+    }
+    if (tm < 10) {
+      tm = "0" + min;
+    }
+    if (ts < 10) {
+      ts = "0" + sec;
+    }
+
+    record.innerHTML = th + ":" + tm + ":" + ts;
+  }, 1000);
+}
+
+if (navigator.mediaDevices) {
+  console.log("getUserMedia supported.");
 
   const constraints = {
     audio: true,
@@ -56,31 +85,7 @@ if (navigator.mediaDevices) {
         record.style.background = "rgb(226, 192, 192)";
         record.style.color = "rgb(104, 9, 9)";
 
-        record.innerHTML = "00:00:00";
-
-        timer = setInterval(() => {
-          time++;
-
-          min = Math.floor(time / 60);
-          hour = Math.floor(min / 60);
-          sec = time % 60;
-          min = min % 60;
-
-          let th = hour;
-          let tm = min;
-          let ts = sec;
-          if (th < 10) {
-            th = "0" + hour;
-          }
-          if (tm < 10) {
-            tm = "0" + min;
-          }
-          if (ts < 10) {
-            ts = "0" + sec;
-          }
-
-          record.innerHTML = th + ":" + tm + ":" + ts;
-        }, 1000);
+        startTimer();
       };
 
       stop.onclick = () => {
