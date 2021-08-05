@@ -359,19 +359,8 @@ const questions = {
     If you had to pick an overseas vacation spot right away, where would you pick and why?`,
   ],
   "해외여행(1-foods)": [
-    `Wow, this is a very interesting question.
-    Let me share about the food I eat on a trip.
-    I love trying local food.
-    It’s such a new experience to me.
-    2 years ago, I visited Hawaii during my summer vacation.
-    I loved to eat seafood barbeque and coconut juice in Hawaii.
-    These are the most famous Hawaiian dishes.
-    When I tasted it first, Wow! It was amazing.
-    They were served fresh and so delicious.
-    Once you taste them, You’ll never forget the flavors.
-    I can’t forget the day.
-    If I have a chance, I wanna go there again.
-    This is about the food I eat on a trip.`,
+    `What kind of food do you like to eat when you are traveling?
+    Can you describe in English all the foods you eat on trips?`,
   ],
   "해외여행(2-what I did)": [
     `I’d like to know about last time when you took an international trip.

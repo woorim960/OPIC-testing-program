@@ -1132,6 +1132,21 @@ const answers = {
     If I have a chance, I wanna go there again.
     This is about my international trip.`,
   ],
+  "해외여행(1-foods)": [
+    `Wow, this is a very interesting question.
+    Let me share about the food I eat on a trip.
+    I love trying local food.
+    It’s such a new experience to me.
+    2 years ago, I visited Hawaii during my summer vacation.
+    I loved to eat seafood barbeque and coconut juice in Hawaii.
+    These are the most famous Hawaiian dishes.
+    When I tasted it first, Wow! It was amazing.
+    They were served fresh and so delicious.
+    Once you taste them, You’ll never forget the flavors.
+    I can’t forget the day.
+    If I have a chance, I wanna go there again.
+    This is about the food I eat on a trip.`,
+  ],
   "해외여행(2-what I did)": [
     `Wow, this is a very interesting question.
     Let me share about my last internatinal trip.
