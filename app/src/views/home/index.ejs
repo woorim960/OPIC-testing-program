@@ -7,19 +7,24 @@
 
   <link rel="stylesheet" href="/css/index.css">
   <script type="module" src="/js/index.js" defer></script>
+  <script src="/js/recoder.js" defer></script>
   <title>OPIC 연습용 프로그램</title>
 </head>
 <body>
   <section class="title-form">
     <div class="title">
       <h1>OPIC 연습용 프로그램</h1>
-      <h3>버전: v1.4.0</h3>
+      <h3>버전: v1.5.0</h3>
       <h3>개발자: 박우림</h3>
     </div>
 
     <div class="title-footer">
-      <a href="https://www.notion.so/Opic-English-Studying-48c6ff419a8b49b299fb62412ddff19d">스크립트 바로가기</a>
-      <h4>최종 업데이트 일자: 2021.07.27(화)</h3>
+      <div class="links">
+        <a href="https://www.notion.so/Opic-English-Studying-48c6ff419a8b49b299fb62412ddff19d">스크립트 바로가기</a>
+        <a href="https://www.youtube.com/watch?v=0De5jYix7Cg">시험 환경 테스트 바로가기</a>
+      </div>
+      
+      <h4><span>최종 업데이트 일자: 2021.08.05(목)</span></h4>
     </div>
   </section>
 
@@ -59,6 +64,21 @@
       <div class="pitch-value">1</div>
       <div class="clearfix"></div>
     </div>
+
+    <article class="record-form">     
+      <div class="record-title">
+        <div class="main-title">레코딩</div>
+        <div class="checkbox">
+          <input type=checkbox id="chk-hear-mic"><label for="chk-hear-mic">마이크 소리 듣기</label>
+        </div>
+      </div>
+
+      <button id="record" class="btn">녹음</button>
+      <button id="stop" class="btn">정지</button>
+
+      
+      <div id="sound-clips"></div>
+    </article>
   </section>
 
   <hr>
